@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    margin-top: 4.25em;
+    margin-top: 3.54vw;
     /*68px*/
     width: 100%;
 }
@@ -44,9 +44,9 @@ body {
 .promo {
     display: flex;
     flex-direction: row;
-    gap: 15pt;
+    gap: 1.04vw;
     /*20px*/
-    margin-bottom: 4.25em;
+    margin-bottom: 3.54vw;
     /*68px*/
 }
 
@@ -79,9 +79,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 36.125em;
+    width: 30.10vw;
     /*578px*/
-    height: 4.875em;
+    height: 4.06vw;
     /*78px*/
     background: #FF8686;
     box-shadow: 0em 0.25em 0.25em 0em rgba(0, 0, 0, 0.25);
@@ -103,9 +103,9 @@ button:active {
 
 .promo__copy {
     font-family: "ofont.ru_Pixeloid Sans.ttf";
-    width: 433.5pt;
+    width: 30.10vw;
     /*578px*/
-    height: 58.5pt;
+    height: 4.06vw;
     /*78px*/
     color: #000;
     background: #FF8686;
@@ -118,9 +118,9 @@ button:active {
 }
 
 .promo__foto {
-    width: 285pt;
+    width: 19.79vw;
     /*380px*/
-    height: 302.25pt;
+    height: 20.99vw;
     /*403px*/
 }
 
@@ -128,7 +128,7 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 7.5pt;
+    gap: 0.52vw;
     /*10px*/
     flex-direction: column;
 
