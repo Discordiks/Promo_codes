@@ -3,14 +3,11 @@
     src: url("fonts/ofont.ru_Pixeloid Sans.ttf");
 }
 
-
 body {
     margin: 0;
     font-family: "ofont.ru_Pixeloid Sans.ttf";
     background: #FFECF8;
     background-image: url(img/fon.png);
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 .main {
