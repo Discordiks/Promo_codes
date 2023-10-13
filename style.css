@@ -9,6 +9,8 @@ body {
     font-family: "ofont.ru_Pixeloid Sans.ttf";
     background: #FFECF8;
     background-image: url(img/fon.png);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .main {
@@ -16,7 +18,9 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    margin-top: 68px;
+    margin-top: 4.25em;
+    /*68px*/
+    width: 100%;
 }
 
 .header {
@@ -24,7 +28,6 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 120px;
     flex-shrink: 0;
     background: rgba(255, 45, 196, 0.50);
     margin: 0 auto;
@@ -33,8 +36,10 @@ body {
 .header__text {
     color: #000;
     text-align: center;
-    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.36);
-    font-size: 40px;
+    text-shadow: 0.3125em 0.25em 0.25em rgba(0, 0, 0, 0.36);
+    /*5px 4px 4px*/
+    font-size: 2.5em;
+    /*40px*/
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -43,8 +48,10 @@ body {
 .promo {
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    margin-bottom: 68px;
+    gap: 1.25em;
+    /*20px*/
+    margin-bottom: 4.25em;
+    /*68px*/
 }
 
 .promo__info {
@@ -56,7 +63,8 @@ body {
 .promo__title {
     color: #000;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5em;
+    /*40px*/
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -64,7 +72,8 @@ body {
 
 .promo__text {
     color: #000;
-    font-size: 22px;
+    font-size: 1.375em;
+    /*22px*/
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -74,12 +83,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 578px;
-    height: 78px;
+    width: 36.125em;
+    /*578px*/
+    height: 4.875em;
+    /*78px*/
     flex-shrink: 0;
     background: #FF8686;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin-top: 32px;
+    box-shadow: 0em 0.25em 0.25em 0em rgba(0, 0, 0, 0.25);
+    /*0px 4px 4px 0px*/
+    margin-top: 2em;
+    /*32px*/
 }
 
 button {
@@ -95,20 +108,25 @@ button:active {
 
 .promo__copy {
     font-family: "ofont.ru_Pixeloid Sans.ttf";
-    width: 578px;
-    height: 78px;
+    width: 433.5pt;
+    /*578px*/
+    height: 58.5pt;
+    /*78px*/
     color: #000;
     background: #FF8686;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5em;
+    /*40px*/
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .promo__foto {
-    width: 380px;
-    height: 403px;
+    width: 23.75em;
+    /*380px*/
+    height: 25.1875em;
+    /*403px*/
     flex-shrink: 0;
 }
 
@@ -116,15 +134,16 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 0.625em;
+    /*10px*/
     flex-direction: column;
 
     width: 100%;
-    height: 120px;
     background: rgba(255, 45, 196, 0.50);
 
     color: #000;
-    font-size: 16px;
+    font-size: 1em;
+    /*16px*/
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -132,6 +151,7 @@ button:active {
 
 .footer p {
     margin: 0;
+    text-align: center;
 }
 
 .footer__tel {
