@@ -25,7 +25,6 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    flex-shrink: 0;
     background: rgba(255, 45, 196, 0.50);
     margin: 0 auto;
 }
@@ -45,7 +44,7 @@ body {
 .promo {
     display: flex;
     flex-direction: row;
-    gap: 1.25em;
+    gap: 15pt;
     /*20px*/
     margin-bottom: 4.25em;
     /*68px*/
@@ -84,7 +83,6 @@ body {
     /*578px*/
     height: 4.875em;
     /*78px*/
-    flex-shrink: 0;
     background: #FF8686;
     box-shadow: 0em 0.25em 0.25em 0em rgba(0, 0, 0, 0.25);
     /*0px 4px 4px 0px*/
@@ -120,18 +118,17 @@ button:active {
 }
 
 .promo__foto {
-    width: 23.75em;
+    width: 285pt;
     /*380px*/
-    height: 25.1875em;
+    height: 302.25pt;
     /*403px*/
-    flex-shrink: 0;
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.625em;
+    gap: 7.5pt;
     /*10px*/
     flex-direction: column;
 
