@@ -32,9 +32,9 @@ body {
 .header__text {
     color: #000;
     text-align: center;
-    text-shadow: 0.3125em 0.25em 0.25em rgba(0, 0, 0, 0.36);
+    text-shadow: 0.26vw 0.21vw 0.21vw rgba(0, 0, 0, 0.36);
     /*5px 4px 4px*/
-    font-size: 2.5em;
+    font-size: 2.08vw;
     /*40px*/
     font-style: normal;
     font-weight: 400;
@@ -59,7 +59,7 @@ body {
 .promo__title {
     color: #000;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.08vw;
     /*40px*/
     font-style: normal;
     font-weight: 700;
@@ -68,7 +68,7 @@ body {
 
 .promo__text {
     color: #000;
-    font-size: 1.375em;
+    font-size: 1.15vw;
     /*22px*/
     font-style: normal;
     font-weight: 400;
@@ -84,9 +84,9 @@ body {
     height: 4.06vw;
     /*78px*/
     background: #FF8686;
-    box-shadow: 0em 0.25em 0.25em 0em rgba(0, 0, 0, 0.25);
+    box-shadow: 0vw 0.21vw 0.21vw 0vw rgba(0, 0, 0, 0.25);
     /*0px 4px 4px 0px*/
-    margin-top: 2em;
+    margin-top: 1.67vw;
     /*32px*/
 }
 
@@ -110,7 +110,7 @@ button:active {
     color: #000;
     background: #FF8686;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.08vw;
     /*40px*/
     font-style: normal;
     font-weight: 400;
@@ -118,10 +118,13 @@ button:active {
 }
 
 .promo__foto {
+    display: flex;
     width: 19.79vw;
     /*380px*/
     height: 20.99vw;
     /*403px*/
+    object-fit: cover;
+    object-position: bottom;
 }
 
 .footer {
@@ -136,7 +139,7 @@ button:active {
     background: rgba(255, 45, 196, 0.50);
 
     color: #000;
-    font-size: 1em;
+    font-size: 0.83vw;
     /*16px*/
     font-style: normal;
     font-weight: 400;
